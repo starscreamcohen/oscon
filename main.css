@@ -55,7 +55,10 @@ hr {
 }
 
 #photo-gallery {
-
+	position: relative;
+	width: 62%;
+	height: 500px;
+	margin: 0 auto;
 }
 
 	.project-index, 
@@ -64,14 +67,14 @@ hr {
 	.org-profile {
 		width: 800px;
 		height: 428px;
-		margin: 0 auto;
 		overflow: hidden;
 	}
 
-	.newsfeed,
-	.forum,
-	.org-profile {
+	.rotating-item {
 		display: none;
+		position: absolute;
+		top: 50px;
+		left: 0;
 	}
 
 		#photo-gallery img {
