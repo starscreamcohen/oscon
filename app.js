@@ -1,14 +1,14 @@
 
 $(window).load(function() {
-	
+
 	var infiniteRotator = {
 		init: function() 
 		{
 			var initialFadeIn = 1000;
 
-			var itemInterval = 5000;
+			var itemInterval = 10000;
 
-			var fadeTime = 500;
+			var fadeTime = 1000;
 
 			var numberOfItems = $('.rotating-item').length;
 
@@ -30,14 +30,5 @@ $(window).load(function() {
 		}
 	};
 	infiniteRotator.init();
-
-	/*$(function(){
-    var images = ['.project-index', '.newsfeed', '.forum', '.org-profile'],
-         imgIx = 0;
-
-    (function nextImage(){
-        $(images[imgIx++] || images[imgIx = 0, imgIx++]).hide().delay(100).fadeIn(1000).delay(5000).fadeOut(500, nextImage);
-    })();
-	});*/ 
 });
 

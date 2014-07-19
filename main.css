@@ -56,25 +56,23 @@ hr {
 
 #photo-gallery {
 	position: relative;
-	width: 62%;
-	height: 500px;
-	margin: 0 auto;
+	height: 550px;
+	margin: 0 17% 0 0;
 }
 
-	.project-index, 
-	.newsfeed, 
-	.forum, 
-	.org-profile {
-		width: 800px;
-		height: 428px;
-		overflow: hidden;
+	#photo-gallery p {
+		margin-bottom: 10px;
+		font-size: 2em; 
+		text-align: center;
 	}
 
 	.rotating-item {
 		display: none;
 		position: absolute;
-		top: 50px;
-		left: 0;
+		top: 75px;
+		height: 470px;
+		width: 115%;
+		overflow: hidden;
 	}
 
 		#photo-gallery img {
