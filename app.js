@@ -38,7 +38,7 @@ $(window).load(function() {
 	var form = {
 		deleteSuccessNotification: function() 
 		{
-			$('.response').delay(2500).remove();
+			$('.response').remove();
 		} 
 	}
 });
