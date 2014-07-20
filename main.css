@@ -122,6 +122,7 @@ hr {
 
 			#mce-EMAIL, #mce-FNAME, #mce-LNAME {
 				font-size: 1em;
+				line-height: 3em;
 			}
 			#mce-FNAME, #mce-LNAME {
 				margin-top: -22px;
