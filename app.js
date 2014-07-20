@@ -31,7 +31,7 @@ $(window).load(function() {
 	};
 	infiniteRotator.init();
 
-	$('.response').on('load', function() {
+	$('.response').load(function() {
 		form.deleteSuccessNotification();
 	});
 
