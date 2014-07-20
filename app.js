@@ -38,7 +38,7 @@ $(window).load(function() {
 	var form = {
 		deleteSuccessNotification: function() 
 		{
-			$('#mce-success-response').delay(2500).remove();
+			$('.response').delay(2500).remove();
 		} 
 	}
 });
