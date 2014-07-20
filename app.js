@@ -30,5 +30,16 @@ $(window).load(function() {
 		}
 	};
 	infiniteRotator.init();
+
+	$('.button').on('click', function() {
+		form.deleteSuccessNotification();
+	});
+
+	var form = {
+		deleteSuccessNotification: function() 
+		{
+			$('#mce-success-response').delay(1000).remove();
+		} 
+	}
 });
 
