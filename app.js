@@ -4,7 +4,7 @@ $(window).load(function() {
 	var infiniteRotator = {
 		init: function() 
 		{
-			var initialFadeIn = 1000;
+			var initialFadeIn = 0;
 
 			var itemInterval = 10000;
 

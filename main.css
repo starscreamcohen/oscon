@@ -90,14 +90,43 @@ hr {
 		font-size: 18px;
 	}
 
+	#cta-section span {
+		font-size: 1.5em;
+		float: left;
+	}
+	
+
 		#mce-EMAIL, #mce-FNAME, #mce-LNAME {
 			width: 100%;
 			height: 40px;
-			margin-bottom: 10px;
 			border-radius: 3px;
 			text-indent: 5px;
+			display: inline;
+			float: left;
+			border:none;
+			border-bottom: 1px solid black;
 		}
+
+		#mce-EMAIL:focus, #mce-FNAME:focus, #mce-LNAME:focus
+		{
+			outline: none;
+		}
+
+
+			#mce-FNAME,
+			#mce-LNAME 
+			{
+				width: 30%;
+				margin: -16px 5px 20px;
+			}
+
+			#mce-EMAIL {
+				width: 40%;
+				margin: -14px 0 0 5px;
+			}
+			
 	.input-group {
+		clear: both;
 		font-size: 1.10em;
 		padding: 15px 0 0;
 	}
@@ -119,6 +148,11 @@ hr {
 				bottom: 4px;
 				left: 8px;
 			}
+
+			/* For Inputs */ 
+
+			
+
 	.button-wrapper {
 		padding: 10px 0 10px 10px;
 		background-color: #336699;
