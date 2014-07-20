@@ -92,15 +92,16 @@ hr {
 			width: 100%;
 			height: 40px;
 			border-radius: 3px;
+			line-height: 1.75em;
 			text-indent: 5px;
+			font-size: 1.5em;
 			display: inline;
 			float: left;
 			border:none;
 			border-bottom: 1px solid black;
 		}
 
-		#mce-EMAIL:focus, #mce-FNAME:focus, #mce-LNAME:focus
-		{
+		#mce-EMAIL:focus, #mce-FNAME:focus, #mce-LNAME:focus {
 			outline: none;
 		}
 
@@ -118,6 +119,10 @@ hr {
 		}
 
 		@media screen and (max-width: 940px) {
+
+			#mce-EMAIL, #mce-FNAME, #mce-LNAME {
+				font-size: 1em;
+			}
 			#mce-FNAME, #mce-LNAME {
 				margin-top: -22px;
 			}
