@@ -29,14 +29,6 @@ section {
 		width: 600px;
 		margin: 0 auto;
 	}
-		.oreilly-logo {
-			width: 100px;
-			position: relative;
-			top: 48px;
-			left: 230px;
-
-		}
-
 		.grassroots-logo {
 			display: block;
 			width: 500px;
@@ -46,7 +38,7 @@ section {
 			display: block;
 			position: relative;
 			bottom: 15px;
-			margin-left: 32%;
+			margin-left: 28%;
 			font-size: 2.25em;
 		}
 hr {
@@ -57,7 +49,7 @@ hr {
 #photo-gallery {
 	position: relative;
 	height: 550px;
-	margin: 0 17% 0 0;
+	margin: 0 17% 25px 0;
 }
 
 	#photo-gallery p {
@@ -80,12 +72,12 @@ hr {
 		}
 	
 
-#cta-section {
-
+#form {
+	width: 80%;
 }
 	
 	#mc_embed_signup {
-		width: 60%;
+		width: 80%;
 		margin: 0 auto;
 		font-size: 18px;
 	}
@@ -113,17 +105,29 @@ hr {
 		}
 
 
-			#mce-FNAME,
-			#mce-LNAME 
-			{
-				width: 30%;
-				margin: -16px 5px 20px;
+		#mce-FNAME,
+		#mce-LNAME 
+		{
+			width: 30%;
+			margin: -16px 5px 20px;
+		}
+
+		#mce-EMAIL {
+			width: 40%;
+			margin: -14px 0 0 5px;
+		}
+
+		@media screen and (max-width: 940px) {
+			#mce-FNAME, #mce-LNAME {
+				margin-top: -22px;
 			}
 
-			#mce-EMAIL {
-				width: 40%;
-				margin: -14px 0 0 5px;
+			#cta-section span {
+				font-size: 1.10em;
 			}
+		}
+
+		
 			
 	.input-group {
 		clear: both;
@@ -158,7 +162,7 @@ hr {
 		background-color: #336699;
 	}
 		.button {
-			width: 33%;
+			width: 24%;
 			height: 30px;
 			font-size: 16px;
 		}
