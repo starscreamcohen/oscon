@@ -48,7 +48,7 @@ $(window).load(function() {
 			else {
 				console.log('Not Working');
 			}
-		} 
+		}
 	}
 });
 
