@@ -63,105 +63,107 @@ hr {
 			width: 100%;
 		}
 	
-
-#form {
-	width: 80%;
+#cta-section {
+	margin-bottom: 20px;
 }
-	
-	#mc_embed_signup {
+	#form {
 		width: 80%;
-		margin: 0 auto;
-		font-size: 18px;
 	}
+		
+		#mc_embed_signup {
+			width: 80%;
+			margin: 0 auto;
+			font-size: 18px;
+		}
 
-	#cta-section span {
-		font-size: 1.5em;
-		float: left;
-	}
-	
-
-		#mce-EMAIL, #mce-FNAME, #mce-LNAME {
-			width: 100%;
-			height: 40px;
-			border-radius: 3px;
-			line-height: 1.75em;
-			text-indent: 5px;
+		#cta-section span {
 			font-size: 1.5em;
-			display: inline;
 			float: left;
-			border:none;
-			border-bottom: 1px solid black;
 		}
-
-		#mce-EMAIL:focus, #mce-FNAME:focus, #mce-LNAME:focus {
-			outline: none;
-		}
-
-
-		#mce-FNAME,
-		#mce-LNAME 
-		{
-			width: 30%;
-			margin: -16px 5px 20px;
-		}
-
-		#mce-EMAIL {
-			width: 40%;
-			margin: -14px 0 0 5px;
-		}
-
-		@media screen and (max-width: 940px) {
+		
 
 			#mce-EMAIL, #mce-FNAME, #mce-LNAME {
-				font-size: 1em;
-				line-height: 3em;
-			}
-			#mce-FNAME, #mce-LNAME {
-				margin-top: -22px;
+				width: 100%;
+				height: 40px;
+				border-radius: 3px;
+				line-height: 1.75em;
+				text-indent: 5px;
+				font-size: 1.5em;
+				display: inline;
+				float: left;
+				border:none;
+				border-bottom: 1px solid black;
 			}
 
-			#cta-section span {
-				font-size: 1.10em;
+			#mce-EMAIL:focus, #mce-FNAME:focus, #mce-LNAME:focus {
+				outline: none;
 			}
-		}
 
-		
+
+			#mce-FNAME,
+			#mce-LNAME 
+			{
+				width: 30%;
+				margin: -16px 5px 20px;
+			}
+
+			#mce-EMAIL {
+				width: 40%;
+				margin: -14px 0 0 5px;
+			}
+
+			@media screen and (max-width: 940px) {
+
+				#mce-EMAIL, #mce-FNAME, #mce-LNAME {
+					font-size: 1em;
+					line-height: 3em;
+				}
+				#mce-FNAME, #mce-LNAME {
+					margin-top: -22px;
+				}
+
+				#cta-section span {
+					font-size: 1.10em;
+				}
+			}
+
 			
-	.input-group {
-		clear: both;
-		font-size: 1.10em;
-		padding: 15px 0 0;
-	}
-
-		.input-group strong {
-			display: block;
-			margin-bottom: 15px
+				
+		.input-group {
+			clear: both;
+			font-size: 1.10em;
+			padding: 15px 0 0;
 		}
 
-		.input-group li {
-			margin-bottom: 10px;
-		}
-			.input-group li input {
-				width: 20px;
-				height: 20px;
-			}
-			.input-group li label {
-				position: relative; 
-				bottom: 4px;
-				left: 8px;
+			.input-group strong {
+				display: block;
+				margin-bottom: 15px
 			}
 
-			/* For Inputs */ 
+			.input-group li {
+				margin-bottom: 10px;
+			}
+				.input-group li input {
+					width: 20px;
+					height: 20px;
+				}
+				.input-group li label {
+					position: relative; 
+					bottom: 4px;
+					left: 8px;
+				}
 
-			
+				/* For Inputs */ 
 
-	.button-wrapper {
-		padding: 10px 0 10px 10px;
-		background-color: #336699;
-	}
-		.button {
-			width: 24%;
-			height: 30px;
-			font-size: 16px;
+				
+
+		.button-wrapper {
+			padding: 10px 0 10px 10px;
+			background-color: #336699;
 		}
+			.button {
+				width: 24%;
+				height: 30px;
+				font-size: 16px;
+			}
 
