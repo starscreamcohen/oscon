@@ -31,14 +31,23 @@ $(window).load(function() {
 	};
 	infiniteRotator.init();
 
-	$('.response').load(function() {
+	$('.button').on('click', function() {
 		form.deleteSuccessNotification();
 	});
 
 	var form = {
 		deleteSuccessNotification: function() 
 		{
-			$('.response').remove();
+
+			// After Button Has Been Clicked
+			// Test to See if DOM Element Appears
+			if($('#mce-response-error').css('display') === 'block') {
+				//$('#mce-responses').children('#mce-error-response').hide();
+				console.log('Whats Going On?');
+			}
+			else {
+				console.log('Not Working');
+			}
 		} 
 	}
 });
