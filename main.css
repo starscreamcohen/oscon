@@ -13,31 +13,19 @@ section {
 	padding: 0 20px;
 }
 
-.lead-section {
-	margin: 20px 0 0;
-
-	-webkit-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.86);
-	-moz-box-shadow:    0px 1px 2px 0px rgba(50, 50, 50, 0.86);
-	box-shadow:         0px 1px 2px 0px rgba(50, 50, 50, 0.86);
-}
-
-		.community-banner {
-			display: block;
-			width: 80%;
-			margin: 0 auto;
-		}
-		.pic-wrapper p {
-			display: block;
-			position: relative;
-			bottom: 15px;
-			margin-left: 28%;
-			font-size: 2.25em;
-		}
 
 .grassroots-logo {
 	display: block;
 	width: 40%;
 	margin: 10px auto 20px;
+}
+
+.issue-statement {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2em
 }
 
 hr {
@@ -51,6 +39,10 @@ hr {
 	margin: 0 17% 25px 0;
 }
 
+	a {
+		text-decoration: none;
+	}
+
 	#photo-gallery p {
 		margin-bottom: 10px;
 		font-size: 2em; 
@@ -60,7 +52,7 @@ hr {
 	.rotating-item {
 		display: none;
 		position: absolute;
-		top: 75px;
+		top: 30px;
 		height: 470px;
 		width: 115%;
 		overflow: hidden;
@@ -93,7 +85,7 @@ hr {
 				width: 100%;
 				height: 40px;
 				border-radius: 3px;
-				line-height: 1.75em;
+				line-height: 1.5em;
 				text-indent: 5px;
 				font-size: 1.5em;
 				display: inline;
@@ -136,7 +128,7 @@ hr {
 	@media screen and (min-device-width : 768px){ 
 
 	#mce-EMAIL, #mce-FNAME, #mce-LNAME {
-		line-height: 2.5em;
+		line-height: 1.5em;
 	}
 
 }
